@@ -2,8 +2,9 @@ num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
 
 
-def plus(n1, n2):
-    result = int(n1) + int(n2)
+def plus(num1, num2):
+    result = int(num1) + int(num2)
+    return result
 
 def hello():
     print("Hello world!")
